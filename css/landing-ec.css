@@ -1,0 +1,232 @@
+body {
+	font-family: Helvetica, Sans-Serif;
+    color: white;
+    font-size: 14pt;
+	background-image: url('https://www.cappex.com/sites/default/files/styles/college_hero_desktop/public/images/hero/college/161873_hero.jpg?itok=4iLu1iAL');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	background-color: #2C2C2C;
+	height: 100px;
+	border-radius: 25px;
+}
+
+.title {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 30pt;
+	color: #040F0F;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;    
+	width: 300px; 
+	background-color: #5DFDCB;
+	border-radius: 25px;
+}
+
+.title:hover {
+	background-color: #47C09A;
+}
+
+.topnav {
+	position: absolute;
+	right: 10px;
+	font-size: 30pt;
+	color: #040F0F;
+	height: 100px;
+	background-color: #5DFDCB;
+	border-radius: 25px;
+	width: 400px;
+}
+
+.register {
+	position: absolute;
+	right: 405px;	
+	color: #040F0F;
+	height: 100px;
+	background-color: #5DFDCB;
+	border-radius: 25px;
+	width:200px;
+	font-family: Gadugi;
+	font-size: 20pt;
+	color: #040F0F;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;   
+}
+
+.register:hover {
+	background-color: #47C09A;
+}
+
+.login {
+	position: absolute;
+	right: 610px;
+	color: #040F0F;
+	height: 100px;
+	background-color: #5DFDCB;
+	border-radius: 25px;
+	width:200px;	
+	font-family: Gadugi;
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;   
+}
+
+.login:hover {
+	background-color: #47C09A;
+}
+
+.searchbar input[type=text] {
+	margin-top:34px;
+	height: 35px;
+	margin-left: 40px;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px; 
+}
+.abouttitle {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 69px;  
+	font-family: Gadugi;
+	font-size: 25px;
+	color: black;
+	background-color: #5DFDCB;
+	width: 50%;
+	height: 70px;
+	position: absolute;
+	top: 10px;
+	left: 25%;
+	border-radius: 25px;
+}
+.about {
+	display: flex;
+	flex-direction: row;
+	background-color: #2C2C2C;
+	height: 100px;
+	border-radius: 25px;
+	margin-top: 105px;
+	position: absolute;
+	right: 10px;
+	height: 75%;
+	width: 810px;
+	
+}
+
+footer {
+	position: absolute; 
+	bottom: 0px; 
+	display: flex;
+	flex-direction: row;
+	background-color: #2C2C2C;
+	height: 100px;
+	border-radius: 25px;
+	width: 100%;
+}
+
+.team {
+	position: absolute;
+	left: 0px;
+	color: white;
+	height: 100px;
+	background-color: #333333;
+	border-radius: 25px;
+	width:200px;
+	font-family: Gadugi;
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;   
+}
+
+.team:hover {
+	background-color: #47C09A;
+}
+
+.instagram {
+	position: absolute;
+	left: 205px;
+	color: white;
+	height: 100px;
+	background-color: #333333;
+	border-radius: 25px;
+	width:200px;
+	font-family: Gadugi;
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;   
+}
+
+.instagram:hover {
+	background-color: #47C09A;
+}
+
+.twitter {
+	position: absolute;
+	left: 410px;
+	color: white;
+	height: 100px;
+	background-color: #333333;
+	border-radius: 25px;
+	width:200px;
+	font-family: Gadugi;
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;   
+}
+
+.twitter:hover {
+	background-color: #47C09A;
+}
+
+.discord {
+	position: absolute;
+	left: 615px;
+	color: white;
+	height: 100px;
+	background-color: #333333;
+	border-radius: 25px;
+	width:200px;
+	font-family: Gadugi;
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;   
+}
+
+.discord:hover {
+	background-color: #47C09A;
+}
+
+.github {
+	position: absolute;
+	left: 820px;
+	color: white;
+	height: 100px;
+	background-color: #333333;
+	border-radius: 25px;
+	width:200px;
+	font-family: Gadugi;
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;   
+}
+
+.github:hover {
+	background-color: #47C09A;
+}
+
