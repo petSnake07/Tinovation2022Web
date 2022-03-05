@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica, Sans-Serif;
-    color: white;
+    color: #660000;
     font-size: 14pt;
 	background-image: url('https://www.bothman.com/sites/default/files/2019-12/4_Cupertino-HS-Seatwalls-OPT.jpg');
 	background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body {
 .navbar {
 	display: flex;
 	flex-direction: row;
-	background-color: white;
+	background-color: #660000;
 	height: 100px;
 	border-radius: 25px;
 }
@@ -18,17 +18,17 @@ body {
 .title {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 30pt;
-	color: white;
+	color: #660000;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 100px;    
 	width: 300px; 
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 }
 
 .title:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
 .topnav {
@@ -37,7 +37,7 @@ body {
 	font-size: 30pt;
 	color: #040F0F;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width: 400px;
 }
@@ -45,9 +45,9 @@ body {
 .register {
 	position: absolute;
 	right: 405px;	
-	color: white;
+	color: #660000;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width:200px;
 	font-family: Gadugi;
@@ -58,15 +58,15 @@ body {
 }
 
 .register:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
 .login {
 	position: absolute;
 	right: 610px;
-	color: white;
+	color: #660000;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width:200px;	
 	font-family: Gadugi;
@@ -77,7 +77,7 @@ body {
 }
 
 .login:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
 .searchbar input[type=text] {
@@ -87,6 +87,7 @@ body {
   border: none;
   font-size: 25px;
   border-radius: 10px;
+  border: 2px solid grey;
 }
 
 p {
@@ -100,8 +101,8 @@ p {
 	line-height: 69px;  
 	font-family: Gadugi;
 	font-size: 25px;
-	color: white;
-	background-color: #660000;
+	color: #660000;
+	background-color: white;
 	width: 50%;
 	height: 70px;
 	position: absolute;
@@ -126,10 +127,10 @@ p {
 
 footer {
 	position: absolute; 
-	bottom: 5px; 
+	bottom: 8px; 
 	display: flex;
 	flex-direction: row;
-	background-color: white;
+	background-color: #660000;
 	height: 100px;
 	border-radius: 25px;
 	width: 99%;
@@ -138,9 +139,9 @@ footer {
 .team {
 	position: absolute;
 	left: 0px;
-	color: white;
+	color: #660000;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width:200px;
 	font-family: Gadugi;
@@ -151,15 +152,15 @@ footer {
 }
 
 .team:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
 .instagram {
 	position: absolute;
 	left: 205px;
-	color: white;
+	color: #660000;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width:200px;
 	font-family: Gadugi;
@@ -170,15 +171,15 @@ footer {
 }
 
 .instagram:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
 .twitter {
 	position: absolute;
 	left: 410px;
-	color: white;
+	color: #660000;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width:200px;
 	font-family: Gadugi;
@@ -189,15 +190,15 @@ footer {
 }
 
 .twitter:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
 .discord {
 	position: absolute;
 	left: 615px;
-	color: white;
+	color: #660000;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width:200px;
 	font-family: Gadugi;
@@ -208,15 +209,15 @@ footer {
 }
 
 .discord:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
 .github {
 	position: absolute;
 	left: 820px;
-	color: white;
+	color: #660000;
 	height: 100px;
-	background-color: #660000;
+	background-color: white;
 	border-radius: 25px;
 	width:200px;
 	font-family: Gadugi;
@@ -227,6 +228,6 @@ footer {
 }
 
 .github:hover {
-	background-color: #940000;
+	background-color: #e3e3e3;
 }
 
