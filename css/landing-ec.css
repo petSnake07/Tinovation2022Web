@@ -1,13 +1,55 @@
 body {
+	/* default styling */
 	font-family: Helvetica, Sans-Serif;
     color: #660000;
     font-size: 14pt;
+	
+	/* background image */
 	background-image: url('https://www.bothman.com/sites/default/files/2019-12/4_Cupertino-HS-Seatwalls-OPT.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
+p {
+	/* paragraph styling; entirely for "about" section */
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px; 
+}
+
+button {
+	/* default buttons */
+	background-color: white;
+	color: #660000;
+	font-family: Gadugi;
+	font-size: 20pt;
+	vertical-align: middle;
+	line-height: 100px; 
+	border: none;
+	border-radius: 25px;
+	text-align: center;
+	width: 200px; 
+}
+
+button:hover {
+	/* flashing effect on buttons */
+	background-color: #e3e3e3;
+}
+
+footer {
+	/* maroon bar footer */
+	position: absolute; 
+	bottom: 8px; 
+	display: flex;
+	flex-direction: row;
+	background-color: #660000;
+	height: 100px;
+	border-radius: 25px;
+	width: 99%;
+}
+
 .navbar {
+	/* maroon bar header */
 	display: flex;
 	flex-direction: row;
 	background-color: #660000;
@@ -16,6 +58,7 @@ body {
 }
 
 .title {
+	/* CAMPUSMAP title*/
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 30pt;
 	color: #660000;
@@ -27,11 +70,8 @@ body {
 	border-radius: 25px;
 }
 
-.title:hover {
-	background-color: #e3e3e3;
-}
-
-.topnav {
+.searchbar {
+	/* searchbar */
 	position: absolute;
 	right: 8px;
 	font-size: 30pt;
@@ -42,60 +82,19 @@ body {
 	width: 400px;
 }
 
-.register {
-	position: absolute;
-	right: 405px;	
-	color: #660000;
-	height: 100px;
-	background-color: white;
-	border-radius: 25px;
-	width:200px;
-	font-family: Gadugi;
-	font-size: 20pt;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 100px;   
-}
-
-.register:hover {
-	background-color: #e3e3e3;
-}
-
-.login {
-	position: absolute;
-	right: 610px;
-	color: #660000;
-	height: 100px;
-	background-color: white;
-	border-radius: 25px;
-	width:200px;	
-	font-family: Gadugi;
-	font-size: 20pt;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 100px;   
-}
-
-.login:hover {
-	background-color: #e3e3e3;
-}
-
-.searchbar input[type=text] {
+.searchbarinput input[type=text] {
+	/* also searchbar */
 	margin-top:34px;
-	height: 35px;
 	margin-left: 40px;
-  border: none;
-  font-size: 25px;
-  border-radius: 10px;
-  border: 2px solid grey;
+	height: 35px;
+	border: none;
+	font-size: 25px;
+	border-radius: 10px;
+	border: 2px solid grey;
 }
 
-p {
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 100px; 
-}
 .abouttitle {
+	/* about section title */
 	text-align: center;
 	vertical-align: middle;
 	line-height: 69px;  
@@ -111,6 +110,7 @@ p {
 	border-radius: 25px;
 }
 .about {
+	/* about section */
 	color: black;
 	display: flex;
 	flex-direction: row;
@@ -125,109 +125,40 @@ p {
 	
 }
 
-footer {
-	position: absolute; 
-	bottom: 8px; 
-	display: flex;
-	flex-direction: row;
-	background-color: #660000;
-	height: 100px;
-	border-radius: 25px;
-	width: 99%;
+/* everything else below this point should be pretty self explanatory */
+.register {
+	position: absolute;
+	right: 405px;	 
 }
+
+.login {
+	position: absolute;
+	right: 610px; 
+}
+
 
 .team {
 	position: absolute;
-	left: 0px;
-	color: #660000;
-	height: 100px;
-	background-color: white;
-	border-radius: 25px;
-	width:200px;
-	font-family: Gadugi;
-	font-size: 20pt;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 100px;   
-}
-
-.team:hover {
-	background-color: #e3e3e3;
+	left: 0px;  
 }
 
 .instagram {
 	position: absolute;
-	left: 205px;
-	color: #660000;
-	height: 100px;
-	background-color: white;
-	border-radius: 25px;
-	width:200px;
-	font-family: Gadugi;
-	font-size: 20pt;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 100px;   
-}
-
-.instagram:hover {
-	background-color: #e3e3e3;
+	left: 205px; 
 }
 
 .twitter {
 	position: absolute;
-	left: 410px;
-	color: #660000;
-	height: 100px;
-	background-color: white;
-	border-radius: 25px;
-	width:200px;
-	font-family: Gadugi;
-	font-size: 20pt;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 100px;   
-}
-
-.twitter:hover {
-	background-color: #e3e3e3;
+	left: 410px; 
 }
 
 .discord {
 	position: absolute;
-	left: 615px;
-	color: #660000;
-	height: 100px;
-	background-color: white;
-	border-radius: 25px;
-	width:200px;
-	font-family: Gadugi;
-	font-size: 20pt;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 100px;   
-}
-
-.discord:hover {
-	background-color: #e3e3e3;
+	left: 615px;  
 }
 
 .github {
 	position: absolute;
 	left: 820px;
-	color: #660000;
-	height: 100px;
-	background-color: white;
-	border-radius: 25px;
-	width:200px;
-	font-family: Gadugi;
-	font-size: 20pt;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 100px;   
-}
-
-.github:hover {
-	background-color: #e3e3e3;
 }
 
