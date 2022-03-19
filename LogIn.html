@@ -131,14 +131,14 @@ input[type=submit]:hover {
         <div class="hide-md-lg">
         Username or Email Address
         <br>
-        <input type="text" name="username" placeholder="Username/Email Address" required>
+        <input type="text" name="username" id="email" placeholder="Username/Email Address" required>
         <br>
         <br>
         Password
         <Br>
-        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
         <br>
-        <input type="submit" value="Login">
+        <input type="submit" value="Login" onclick="submitLogin()">
         <br>
         <br>
         <div class="sign-up">
@@ -166,5 +166,24 @@ Forgot password?
   </div>
 </div> -->
 </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyD5fhxEtRktvkH9WPgAAdQHYXwxYdImsUE",
+      authDomain: "campusmap-test.firebaseapp.com",
+      projectId: "campusmap-test",
+      storageBucket: "campusmap-test.appspot.com",
+      messagingSenderId: "815028344778",
+      appId: "1:815028344778:web:49874ffee45e7101132133",
+      databaseURL:"https://campusmap-test-default-rtdb.firebaseio.com/"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src = "js/auth.js"></script>
 </body>
 </html>
