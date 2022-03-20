@@ -1,0 +1,261 @@
+body {
+	margin-left: 0;	
+	margin-right: 0;
+	margin-bottom: 0;
+	width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+button.button1 {
+	/* default buttons */
+	background-color: white;
+	color: #660000;
+	font-family: Gadugi;
+	font-size: 20pt;
+	vertical-align: middle;
+	line-height: 75px; 
+	border: none;
+	border-radius: 25px;
+	text-align: center;
+	width: 200px; 
+}
+
+button:hover {
+	background-color: #e3e3e3;	
+}
+
+a {
+	color: white;
+	font-family: Gadugi;
+	font-size: 10pt;
+}
+
+.header {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	height: 77px;
+	margin-bottom: 12px;
+}
+
+.title {
+	/* CAMPUSMAP title*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 35pt;
+	color: #660000;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;    
+	width: 300px; 
+	position: absolute;
+	left: 250px;
+}
+
+.about-us {
+	color: #660000;
+	position: absolute;
+	right: 400px;
+}
+
+.register {
+	color: #660000;
+	position: absolute;
+	right: 605px; 
+}
+
+.login {
+	color: #660000;
+	position: absolute;
+	right: 810px; 
+}
+
+.midtop {
+	height: 1000px;
+	width: 100%;
+	/* background image */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0)) , url('https://www.bothman.com/sites/default/files/2019-12/4_Cupertino-HS-Seatwalls-OPT.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.find {
+	font-family: Segoe UI Historic;
+	color: white;
+	font-weight: bold;
+	font-size: 42pt;
+	transform: scale(1.13, 1);
+	vertical-align: middle;
+	padding-top: 350px;
+}
+
+form {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 60%;
+  
+}
+
+input[type=search] {
+	
+    border:solid 3px #fff;
+    box-sizing:border-box;
+    font-size:2em;
+    height:2em;
+    margin-left:-15vw;
+    outline:solid #fc0 0;
+    padding:.5em;
+    transition:all 2s ease-in;
+    width:30vw;
+    z-index:1;
+    &:focus {
+      border:solid 3px #09f;      
+      outline:solid #fc0 2000px;
+    }
+}
+
+.what {
+	font-weight: bold;
+	width: 1420px;
+	padding-left: 250px;
+	padding-top: 140px;
+	font-family: Gadugi;
+	font-size: 44px;
+	color: #660000;
+}
+
+.what-text {
+	font-family: Gadugi;
+	font-size: 20px;
+	color: #4a4a4a;
+	text-align: justify;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-bottom: 20px;
+	margin-right: 250px;
+}
+
+.why {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 250px;
+	padding-top: 40px;
+	font-family: Gadugi;
+	font-size: 44px;
+	color: #660000;
+}
+
+.why-text {
+	font-family: Gadugi;
+	font-size: 20px;
+	color: #4a4a4a;
+	text-align: justify;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-bottom: 20px;
+	margin-right: 250px;
+}
+
+.who {
+	font-weight: bold;
+	width: 1420px;
+	padding-left: 250px;
+	padding-top: 40px;
+	font-family: Gadugi;
+	font-size: 44px;
+	color: #660000;
+}
+
+.who-text {
+	font-family: Gadugi;
+	font-size: 20px;
+	color: #4a4a4a;
+	text-align: justify;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-bottom: 20px;
+	margin-right: 250px;
+}
+
+.how {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 250px;
+	padding-top: 40px;
+	font-family: Gadugi;
+	font-size: 44px;
+	color: #660000;
+}
+
+.how-text {
+	font-family: Gadugi;
+	font-size: 20px;
+	color: #4a4a4a;
+	text-align: justify;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 20px;
+	padding-bottom: 140px;
+}
+
+.footer {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	background-color: #660000;
+	height: 300px;
+}
+
+.title2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 35pt;
+	color: white;
+	vertical-align: middle;
+	margin-left: 400px;
+	
+}
+
+.copyright {
+	position: absolute;
+	top: 2330px;
+	margin-left: 430px;
+	color: white;
+	font-family: Gadugi;
+	font-size: 10pt;
+	line-height: 10px; 
+}
+
+.contact-info {
+	padding-top: 20px;
+	margin-left: 100px;
+}
+
+.contact-us {
+	color: white;
+	font-family: Gadugi;
+	font-size: 20pt;
+	vertical-align: middle;
+	line-height: 10px; 
+	text-align: center;
+	
+}
+
+.instagram {
+	position: absolute;
+	top: 2320px;
+}
+
+.twitter {
+	position: absolute; 
+	top: 2350px;
+}
+
+.discord {
+	position: absolute; 
+	top: 2380px;
+}
