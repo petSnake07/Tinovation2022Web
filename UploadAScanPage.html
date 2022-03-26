@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <title>Upload a Scan</title>
+
+    <style>
+      body {
+        font-family: Quicksand, sans-serif;
+      }
+
+      h3 {
+        font-weight: bolder;
+      }
+
+      .btn-primary, .btn-primary:enabled {
+        background-color: #8e764d;
+        border: none;
+      }
+      .btn-primary:hover, .active, .submit-btn {
+        background-color: #630001;
+        border: none;
+      }
+      .btn:focus, .btn:active:focus, .btn.active:focus {
+        box-shadow: none;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+        border-color: #949494;
+      }
+
+      .dropdown-item:focus {
+        background-color: #630001;
+      }
+    </style>
+  </head>
+
+
+
+  <body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #630001;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <a class="navbar-brand ms-3 me-5" href="landing-page.html">Home</a>
+          <!--<a class="nav-item nav-link me-5" href="#" style="color: #c4a7a5">About Us</a>-->
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+
+        <div class="nav-item dropdown navbar-right">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff">
+            Img here
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="AccountPage.html">Profile</a></li>
+            <li><a class="dropdown-item" href="AccountPage.html#accountInfo">Account Info</a></li>
+            <li><a class="dropdown-item" href="AccountPage.html#preferences">Preferences</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="MyScans.html">My Scans</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="ms-5 mt-5 text-center">
+      <h3 class="mb-5">Upload a Scan</h3>
+      <p class="me-3" style="display:inline;">Title (location):</p>
+      <input type="text" class="form-control" id="inputTitle" aria-describedby="titleHelp" style="width: 30%; min-width: 160px; display: inline;">
+      <br><br>
+      <p class="me-3" style="display:inline;">Upload image:</p>
+      <div class="custom-file" style="display: inline;">
+        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+      </div>
+      <br><br>
+      <p class="me-3">Additional details (optional):</p>
+      <textarea class="form-control" aria-label="With textarea" style="width: 50%; display: inline;"></textarea>
+      <br>
+      <button type="button" class="btn btn-primary mt-3 mb-3">Upload!</button>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

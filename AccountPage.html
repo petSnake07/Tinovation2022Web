@@ -42,16 +42,22 @@
       .btn-primary, .btn-primary:enabled {
         background-color: #8e764d;
         border: none;
-        box-shadow: none;
       }
-      .btn-primary:hover, .active {
+      .btn-primary:hover, .active, .submit-btn {
         background-color: #630001;
         border: none;
+      }
+      .btn:focus, .btn:active:focus, .btn.active:focus {
         box-shadow: none;
       }
-      .submit-btn {
+
+      .form-control:focus {
+        box-shadow: none;
+        border-color: #949494;
+      }
+
+      .dropdown-item:focus {
         background-color: #630001;
-        border: none;
       }
     </style>
   </head>
@@ -66,7 +72,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
-          <a class="navbar-brand ms-3 me-5" href="#">Home</a>
+          <a class="navbar-brand ms-3 me-5" href="landing-page.html">Home</a>
           <!--<a class="nav-item nav-link me-5" href="#" style="color: #c4a7a5">About Us</a>-->
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -79,11 +85,11 @@
             Img here
           </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">My Scans</a></li>
-            <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><a class="dropdown-item" href="#accountInfo">Account Info</a></li>
             <li><a class="dropdown-item" href="#preferences">Preferences</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="MyScans.html">My Scans</a></li>
           </ul>
         </div>
       </div>
@@ -97,7 +103,7 @@
         <br>
 
         <!-- Username -->
-        <p class="me-3">Username123</p>
+        <p>Username123</p>
         <button type="button" class="btn btn-primary" id="usernameButton" data-bs-toggle="collapse" href="#usernameForm" role="button" aria-expanded="false" aria-controls="usernameForm" onclick="changeButtonText('usernameButton', 'Change username', '')">Change username</button>
         <div class="collapse" align="center" id="usernameForm">
           <form>
@@ -144,23 +150,23 @@
       </div>
 
       <br>
-      <h3 class="mb-4 mt-5">Scans</h3>
-      <button type="button" class="btn btn-primary me-3" style="display:inline;">My Scans</button>
-      <button type="button" class="btn btn-primary" style="display:inline;">Upload a Scan</button>
-
-      <br> <br>
       <div id="preferences">
         <h3 class="mb-4 mt-5">Preferences</h3>
         <!-- Theme -->
         <p class="me-3" style="display:inline;">Current theme</p>
-        <button type="button" class="btn btn-primary dropdown-toggle" id="themeDropdownButton" data-bs-toggle="dropdown" aria-expanded="false" style="display:inline;">Change Theme</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" id="themeDropdownButton" data-bs-toggle="dropdown" aria-expanded="false" style="display:inline;">Change theme</button>
         <ul class="dropdown-menu" aria-labelledby="themeDropdownButton">
             <li><button class="btn btn-light ms-2" style="width: 140px;">System setting</button></li>
             <li><button class="btn btn-light ms-2" style="width: 140px;">Light</button></li>
             <li><button class="btn btn-light ms-2" style="width: 140px;">Dark</button></li>
         </ul>
       </div>
+
       <br>
+      <h3 class="mb-4 mt-5">Scans</h3>
+      <a href="MyScans.html" style="text-decoration: none;"><button type="button" class="btn btn-primary me-3" style="display:inline;">My scans</button></a>
+      <a href="UploadAScanPage.html" style="text-decoration: none;"><button type="button" class="btn btn-primary" style="display:inline;">Upload a scan</button></a>
+      <br> <br>
     </div>
 
 
