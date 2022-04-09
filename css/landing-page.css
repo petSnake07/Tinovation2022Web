@@ -20,10 +20,45 @@ button.button1 {
 	border-radius: 25px;
 	text-align: center;
 	width: 175px; 
+	width: 8vw;
 }
 
 .button1:hover {
 	background-color: #e3e3e3;	
+}
+@media screen and (min-width: 480px) {
+button.button2 {
+  display: none;
+}
+}
+
+@media screen and (max-width: 480px) {
+button.button2 {
+	/* default buttons */
+	background-color: white;
+	color: #660000;
+	font-family: Gadugi;
+	font-size: 20pt;
+	vertical-align: middle;
+	line-height: 75px; 
+	line-height: 4vw; 
+	border: none;
+	border-radius: 25px;
+	text-align: center;
+	width: 580px; 
+	width: 30vw;
+}
+
+.button2:hover {
+	background-color: #e3e3e3;	
+}
+
+.download {
+	position: absolute;
+	text-align: center;
+	top: 75%;
+	left: 34.8%;
+}
 }
 
 a {
@@ -51,7 +86,7 @@ a {
 	line-height: 75px;    
 	width: 300px; 
 	position: absolute;
-	left: 15%;
+	left: 15vw;
 
 }
 
@@ -228,7 +263,6 @@ input[type=search] {
 
 .copyright {
 	position: absolute;
-	top: 2330px;
 	margin-left: 430px;
 	color: white;
 	font-family: Gadugi;
@@ -253,22 +287,12 @@ input[type=search] {
 
 .instagram {
 	position: absolute;
-	top: 2320px;
 }
 
 .twitter {
 	position: absolute; 
-	top: 2350px;
 }
 
 .discord {
 	position: absolute; 
-	top: 2380px;
-}
-
-@media screen and (max-width: 1800px) {
-    .button2:before {
-        content: 'iOS Install';
-
-    }
 }
