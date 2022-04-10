@@ -26,40 +26,6 @@ button.button1 {
 .button1:hover {
 	background-color: #e3e3e3;	
 }
-@media screen and (min-width: 480px) {
-button.button2 {
-  display: none;
-}
-}
-
-@media screen and (max-width: 480px) {
-button.button2 {
-	/* default buttons */
-	background-color: white;
-	color: #660000;
-	font-family: Gadugi;
-	font-size: 20pt;
-	vertical-align: middle;
-	line-height: 75px; 
-	line-height: 4vw; 
-	border: none;
-	border-radius: 25px;
-	text-align: center;
-	width: 580px; 
-	width: 30vw;
-}
-
-.button2:hover {
-	background-color: #e3e3e3;	
-}
-
-.download {
-	position: absolute;
-	text-align: center;
-	top: 75%;
-	left: 34.8%;
-}
-}
 
 a {
 	color: white;
@@ -121,6 +87,11 @@ a {
 	
 }
 
+.midtop img {
+    width: 28rem;
+    max-width: 100%;
+}
+
 .find {
 	font-family: Segoe UI Historic;
 	color: white;
@@ -129,16 +100,16 @@ a {
 	transform: scale(1.13, 1);
 	position: absolute;
 	vertical-align: middle;
-	top: 50%;
+	top: 500px;
 	left: 36.5%;
 	text-align: center;
 }
 
-form {
+.search {
   display: block;
   left: 50%;
   position: absolute;
-  top: 60%;
+  top: 575px;
   
 }
 
@@ -157,6 +128,40 @@ input[type=search] {
       outline:solid #fc0 2000px;
     }
 	
+}
+
+@media screen and (min-width: 480px) {
+button.button2 {
+  display: none;
+}
+
+}
+
+button.button2 {
+	/* default buttons */
+	background-color: white;
+	color: #660000;
+	font-family: Gadugi;
+	font-size: 20pt;
+	vertical-align: middle;
+	line-height: 75px; 
+	line-height: 4vw; 
+	border: none;
+	border-radius: 25px;
+	text-align: center;
+	width: 580px; 
+	width: 30vw;
+}
+
+.button2:hover {
+	background-color: #e3e3e3;	
+}
+
+.download {
+	position: absolute;
+	text-align: center;
+	top: 650px;
+	left: 34.8%;
 }
 
 .what {
@@ -296,3 +301,5 @@ input[type=search] {
 .discord {
 	position: absolute; 
 }
+
+
