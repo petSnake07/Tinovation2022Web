@@ -164,6 +164,8 @@ button.button2 {
 	left: 34.8%;
 }
 
+/*
+
 .what {
 	font-weight: bold;
 	width: 1420px;
@@ -248,13 +250,14 @@ button.button2 {
 	margin-bottom: 20px;
 	padding-bottom: 140px;
 }
+*/
 
 .footer {
 	padding-top: 50px;
 	display: flex;
 	flex-direction: row;
 	background-color: #660000;
-	height: 300px;
+	height: 200px;
 }
 
 .title2 {
@@ -301,5 +304,63 @@ button.button2 {
 .discord {
 	position: absolute; 
 }
+
+.FAQ-container {
+	display: flex;
+	height: 70vh;
+	justify-content: space-around;
+	align-items: center;
+	flex-grow: 1;
+	width: 100%;
+	background-color: #ededed;
+}
+
+.FAQ-Header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d3d3d3;
+	height: 15vh;
+}
+
+#faqheader{
+	font-family: 'Oswald', sans-serif;
+	width: 40vw;
+	text-align: center;
+	outline: solid 5px #660000;
+	border-radius: 5px;
+
+}
+
+.questionitem {
+	font-family: 'Oswald', sans-serif;
+	border: 4px solid #660000;
+	border-radius: 10px;
+	height: 55vh;
+	width: 23vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: 0.5s;
+	font-size: 2vw;
+
+}
+
+.questionitem:hover {
+	background-color: #FF5C5C;
+	font-size: 0;
+}
+
+.questionitem:hover:after {
+	content: attr(data-hover);
+	font-size: 1.5vw;
+	color: white;
+
+}
+
+
+
+
 
 
