@@ -1,0 +1,21 @@
+{
+  "name": "tinovation2022web",
+  "version": "1.0.0",
+  "description": "Repository for Tinovation's 2022 Product: CampusMap!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rk097/Tinovation2022Web.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rk097/Tinovation2022Web/issues"
+  },
+  "homepage": "https://github.com/rk097/Tinovation2022Web#readme",
+  "dependencies": {
+    "firebase": "^9.8.1",
+    "firebaseui": "^6.0.1"
+  }
+}
